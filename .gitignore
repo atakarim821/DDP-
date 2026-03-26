@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Don't ignore directories
+!*/
+
+# Don't ignore .cu files
+!*.cu
+
+# Don't ignore this .gitignore file
+!.gitignore
