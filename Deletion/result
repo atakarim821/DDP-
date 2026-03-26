@@ -1,0 +1,33 @@
+====================================
+Running Benchmark for ./deletion_v2
+====================================
+
+RESULTS AFTER WARMUP REMOVAL
+Static GPU Time
+Average : 179.644 ms
+Min     : 155.236 ms
+Max     : 207.807 ms
+Std Dev : 9.702 ms
+
+Dynamic GPU Time
+Average : 85.101 ms
+Min     : 83.829 ms
+Max     : 87.286 ms
+Std Dev : 0.590 ms
+
+====================================
+Running Benchmark for ./deletion_v3
+====================================
+
+RESULTS AFTER WARMUP REMOVAL
+Static GPU Time
+Average : 0.998 ms
+Min     : 0.905 ms
+Max     : 1.164 ms
+Std Dev : 0.016 ms
+
+Dynamic GPU Time
+Average : 81.711 ms
+Min     : 77.940 ms
+Max     : 95.956 ms
+Std Dev : 1.150 ms

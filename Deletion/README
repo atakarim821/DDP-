@@ -1,0 +1,11 @@
+deletion.cu -- Most basic version (DDP1 work)
+deletion_v1.cu -- without atomiCAS loop
+deletion_v2.cu -- without atomicCAS loop + warp per node.
+deletion_v3.cu -- delta stepping 
+
+
+How to use:
+./executable startNode EndNode
+
+possible endpoints - (10986 25198), (184814 281112), (266169 270353)
+

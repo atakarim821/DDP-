@@ -1,0 +1,14 @@
+insertion.cu -- Basic DDP1 work
+insertion_v1.cu -- only removes atomicCAS loop 
+insertion_v2.cu -- removes atomicCAS loop + warp per node. 
+insertion_v3.cu -- insertion_v2 + some aggresive optimizations like __ldg() for read only data like graphs. Read only cache is used which is usually faster than L1/L2 cache. (Okayish)
+insertion_v3_exp.cu -- delta stepping 
+insertion_v3_exp_1.cu -- delta stepping 
+
+
+How to use:
+./executable startNode EndNode
+
+possible endpoints - (10986 25198), (184814 281112), (266169 270353)
+
+~
